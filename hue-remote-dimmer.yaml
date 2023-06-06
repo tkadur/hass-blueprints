@@ -6,7 +6,7 @@ blueprint:
     NOTE: tested with RWL020 and RWL022, but community says it also works with RWL021!
     Forked from https://gist.github.com/codycodes/f051781c35cfdfee15162ff680c9cbd8
   domain: automation
-  source_url: https://gist.github.com/codycodes/f051781c35cfdfee15162ff680c9cbd8
+  source_url: https://github.com/tkadur/hass-blueprints/blob/main/hue-remote-dimmer.yaml
   input:
     dimmer_device:
       name: Dimmer Remote Device
@@ -64,7 +64,7 @@ blueprint:
         action:
 
 mode: queued
-max: 5
+max: 10
 max_exceeded: error
 
 trigger:
